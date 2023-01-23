@@ -1,6 +1,7 @@
 <!-- HTML -->
 
 <template>
+  <div class="cover">
  <h3 class="about-me">About Me</h3> 
     <main class="about container-fluid">
       <div class="d-flex flex-column flex-sm-row">
@@ -23,6 +24,7 @@
      </div>
   </div>
     </main>
+    </div>
 </template>
 
 <!--JS  -->
@@ -64,7 +66,9 @@ export default {
     }
 }
 @media only screen and (max-width: 720px) {
-
+.cover{
+  height:167vh;
+}
 .container{
   display: flex;
   flex-direction: column; 
@@ -75,8 +79,6 @@ export default {
 }
 .place{
   margin: auto;
-   
- 
 }
 .place2{
   width: 100%;

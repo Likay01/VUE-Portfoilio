@@ -109,6 +109,9 @@ margin: auto;
    align-items: center;
    
 }
+main{
+   height: 75vh;
+}
 .first{
    margin: 0;
   text-align: center;

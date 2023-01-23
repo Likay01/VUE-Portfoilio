@@ -1,6 +1,7 @@
 <!-- HTML -->
 
 <template>
+    <div class="tops">
     <main class="focus container-fluid">
 <div class="separate d-flex flex-column flex-sm-row">
   <div class="collect">
@@ -26,9 +27,9 @@
         </div>
         </div>
       
-</div>
-
+    </div>
     </main>
+    </div>
 </template>
 
 <!--JS  -->
@@ -98,6 +99,9 @@ export default {
 @media only screen and (max-width:720px) {
 .edu-pic{
     width: 100%;
+}
+.tops{
+    height: 127vh;
 }
 }
 </style>

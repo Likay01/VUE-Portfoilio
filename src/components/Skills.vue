@@ -81,5 +81,8 @@ h6{
 .skills{
     padding-top: 3rem;
 }
+.close{
+    height: 135vh;
+}
 } 
 </style>
