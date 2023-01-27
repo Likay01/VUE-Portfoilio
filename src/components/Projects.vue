@@ -57,7 +57,7 @@ export default {
              more: "A layout design of a potential statue selling website built using vue.",
              img: "https://i.postimg.cc/jjrRPFRS/Screenshot-20230119-032012.png",
              Git:"https://github.com/Likay01/Madused.git",
-             Net:"keen-semolina-ea0912.netlify.app"
+             Net:"https://keen-semolina-ea0912.netlify.app"
             },
             {
              id : 5,
@@ -65,7 +65,7 @@ export default {
              more: "This is a Home page for a clothing line.",
              img: "https://i.postimg.cc/GpF6543w/POLAND-1-3.png",
              Git:"https://github.com/Likay01/EXERCISE.git",
-             Net:"cerulean-gingersnap-26b868.netlify.app"
+             Net:"https://cerulean-gingersnap-26b868.netlify.app"
             },
             {
              id : 6,
