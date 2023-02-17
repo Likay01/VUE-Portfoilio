@@ -1,18 +1,15 @@
 <!-- HTML -->
 
 <template>
-  <div class="container " id="cards">
-    <div class="row form">
-      <div v-for="test in testimonial" key="test" class="card col sort " style="width: 18rem;">
-  <img :src="test.img" class="card-img-top" alt="...">
+    <div class="container " id="cards">
+    <div v-for="test in testimonial" key="test" class="card sorted " style="width: 18rem;" >
+        <img :src="test.img" class="card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">{{test.name}}</h5>
     <p class="card-text">{{test.comment}}</p>
         </div>
-  </div>
+            </div>
 </div>
-    </div>
-
 </template>
 
 <!--JS  -->
@@ -69,14 +66,16 @@ export default {
 
 <style>
   
-    .sort{
+    .sorted{
         background-color: rgba(252, 252, 252, 0.518);
+        padding-right: 0;
         margin: auto;
     }
-    .form{
-        display: contents;
+    #cards{
+     display: flex; 
+     flex-wrap: wrap;
+     gap: 7rem;
     }
-
     @media only screen and (max-width:720px) {
       .card{
         margin-top: 1rem;
