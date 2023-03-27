@@ -3,7 +3,7 @@
 <template>
     <div class="container " id="cards">
     <div v-for="test in testimonial" key="test" class="card sorted " style="width: 18rem;" >
-        <img :src="test.img" class="card-img-top" alt="...">
+        <img :src="test.img" class="images card-img-top" alt="...">
   <div class="card-bodyspace">
     <h5 class="card-title">{{test.name}}</h5>
     <p class="card-text">{{test.comment}}</p>
@@ -81,5 +81,8 @@ export default {
         margin-top: 1rem;
         margin-bottom: 1rem;
       }
+    }
+    .images{
+        height: 300px;
     }
 </style>
